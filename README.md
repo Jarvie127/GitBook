@@ -1,7 +1,15 @@
-# Meeting Notes
+# 3.19随笔
 
-Keep your company's or teams' meeting notes in one place. Indexable, searchable and deep-linkable (yes, that's a word).
+二维数组类型若赋值为一维数组，数组元素从左向右依次排列，元素不足则补0
 
-{% hint style="info" %}
-**Good to know:** GitBook is a great place to document your team's meetings, giving folks access to documentation from every meeting. This template is structured in a way that gives collaborative, open note-taking centre stage. There's no reason why you can't use it for private or personal meeting notes though!
-{% endhint %}
+数组引用地址，若+1，则跳过数组的地址
+
+\&array 是数组指针。数组指针转换为其他指针类型，做运算的话需要注意
+
+数组名是首元素地址，除了sizeof函数。\*(array + 1) 等价于array\[1]
+
+NULL是空指针/ NUL NULL \0
+
+常用的字符串操作函数：
+
+*
